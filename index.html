@@ -19,9 +19,10 @@
 
 <body>
   <main>
+    <div class="grid-header">
     <h2><div class="about-me">About Me</div></h2>
     <img alt="Bruno Rocha" class="profile-image" src="Resources/Images/69710646013__BF60CDF6-0C46-40B2-92B6-CD030D7FCBB9 2.jpg"> 
-    <p><div class=profile-summary>Hi! I am <strong>Bruno Rocha</strong>, an Australian-based web developer with a passion for creating interactive, engaging, and user-friendly web applications.
+    <p><div class="profile-summary">Hi! I am <strong>Bruno Rocha</strong>, an Australian-based web developer with a passion for creating interactive, engaging, and user-friendly web applications.
       Feel free to reach out if you have any projects in mind, or just to say <em>G'day</em>.</div></p>
 
     <button onclick="window.location.href='>https://www.linkedin.com/in/bruno-rocha-6a4905272/' target='_blank'"><div class="Linkedin">
@@ -33,12 +34,13 @@
       <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
       <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"/>
       </svg></div></button>
+    </div>
     
-    
-    <p>I am primary and Kindergarten teacher, self-taught web developer with passion for technology, learning new things
+    <p class="skills-intro">I am primary and Kindergarten teacher, self-taught web developer with passion for technology, learning new things
       and keep myself up to new challenges</p>
 
-      <h3>skills</h3> 
+
+      <h3 class="skills-header">skills</h3> 
     <ul><div class="skills">
       <li><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-filetype-html" viewBox="0 0 16 16">
       <path fill-rule="evenodd" d="M14 4.5V11h-1V4.5h-2A1.5 1.5 0 0 1 9.5 3V1H4a1 1 0 0 0-1 1v9H2V2a2 2 0 0 1 2-2h5.5zm-9.736 7.35v3.999h-.791v-1.714H1.79v1.714H1V11.85h.791v1.626h1.682V11.85h.79Zm2.251.662v3.337h-.794v-3.337H4.588v-.662h3.064v.662zm2.176 3.337v-2.66h.038l.952 2.159h.516l.946-2.16h.038v2.661h.715V11.85h-.8l-1.14 2.596H9.93L8.79 11.85h-.805v3.999zm4.71-.674h1.696v.674H12.61V11.85h.79v3.325Z"/>
@@ -49,19 +51,17 @@
       <li><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-javascript" viewBox="0 0 16 16">
       <path fill-rule="evenodd" d="M14 0a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2zM9.053 7.596v3.127l-.007 1.752q0 .498-.186.752t-.556.263q-.342 0-.528-.234-.185-.234-.185-.684v-.175H6.37v.185q0 .665.253 1.113.255.45.703.674.44.225 1.016.225.88 0 1.406-.498.527-.498.527-1.485l.007-1.752V7.596zm3.808-.108q-.585 0-1.006.244a1.67 1.67 0 0 0-.634.674 2.1 2.1 0 0 0-.225.996q0 .753.293 1.182.303.42.967.732l.469.215q.438.186.625.43.185.244.185.635 0 .478-.166.703-.156.224-.527.224-.361.001-.547-.244-.186-.243-.205-.752h-1.162q.02.996.498 1.524.479.527 1.386.527.909 0 1.417-.518.507-.517.507-1.484 0-.81-.332-1.289t-1.045-.79l-.449-.196q-.39-.166-.556-.381-.166-.214-.166-.576 0-.4.165-.596.177-.195.508-.195.361 0 .508.234.156.234.176.703h1.123q-.03-.976-.498-1.484-.47-.518-1.309-.518"/>
       </svg>JavaScript</li>
-      <li>React</li>
-      <li>Node.js</li>
       <li><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-git" viewBox="0 0 16 16">
         <path d="M15.698 7.287 8.712.302a1.03 1.03 0 0 0-1.457 0l-1.45 1.45 1.84 1.84a1.223 1.223 0 0 1 1.55 1.56l1.773 1.774a1.224 1.224 0 0 1 1.267 2.025 1.226 1.226 0 0 1-2.002-1.334L8.58 5.963v4.353a1.226 1.226 0 1 1-1.008-.036V5.887a1.226 1.226 0 0 1-.666-1.608L5.093 2.465l-4.79 4.79a1.03 1.03 0 0 0 0 1.457l6.986 6.986a1.03 1.03 0 0 0 1.457 0l6.953-6.953a1.03 1.03 0 0 0 0-1.457"/>
         </svg> Git</li>
-      <li>SQL</li>
+      <li><img src="Resources/Images/sql-server.png" width="40" height="40" fill="currentColor" viewbox="0 0 16 16">SQL</li>
       <li>Problem Solving</li>
       <li>team player</li>
       <li>Communication</li>
       <li>Adaptability</li>
         
 
-    <h2>My Projects</h2>
+    <h2 class="projects">My Projects</h2>
     <ul>
       <li><a href="><Project 1 URL>">Project 1</a> - A brief description of Project 1.</li> 
     </ul>     
